@@ -10,3 +10,8 @@ This is a quick look at my portfolio website. This website contains a couple ite
 [Repository](https://github.com/Tydomx/CSS_Portfolio_Website)
 
 ### Screenshots
+![image](https://user-images.githubusercontent.com/99767019/161443904-87bdaf93-98d3-4843-9ce5-0ee90056487a.png)
+
+
+### Contribution 
+Created by Michael Thai
