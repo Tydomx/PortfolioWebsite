@@ -11,6 +11,8 @@ This is a quick look at my portfolio website. This website contains a couple ite
 
 ### Screenshots
 ![image](https://user-images.githubusercontent.com/99767019/161443904-87bdaf93-98d3-4843-9ce5-0ee90056487a.png)
+![image](https://user-images.githubusercontent.com/99767019/161443919-091698b7-414c-4e2e-90a3-f397260cb182.png)
+
 
 
 ### Contribution 
