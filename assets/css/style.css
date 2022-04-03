@@ -37,13 +37,13 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #000000;
+    color: var(--quaternary-color);
     margin: 0;
 }
 
 header a {
     text-decoration: none;
-    color: gold;
+    color: var(--secondary-color);
     font-weight: bold;
 }
 
@@ -83,12 +83,29 @@ header nav ul li a:hover {
     padding: 35px;
 }
 
+.hero figure {
+    border: 2px solid var(--secondary-color);
+    display: flex;
+    flex-flow: column-reverse;
+    max-width: 250px;
+    position: relative;
+    border-radius: 5px;
+}
+
+.hero figure figcaption {
+    background-color: #b7aec0;
+    color: var(--quaternary-color);
+    font-weight: bold;
+    padding: 3px;
+    text-align: center;
+}
+
 section {
     display: block;
 }
 
 figure img {
-    width: 200px;
+    width: 240px;
     height: 200px;
 }
 
