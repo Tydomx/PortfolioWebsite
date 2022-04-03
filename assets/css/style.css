@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #20254f;
+    --secondary-color: #062f4f;
+    --tertiary-color: #813772;
+    --quaternary-color: #882601;
+    --quinary-color: #ffffff;
+    --senary-color: #000000;
+}
+
+body {
+    background-color: var(--primary-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+header {
+    background-color: var(--primary-color);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 50%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--quinary-color);
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--quinary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+}
+
+header nav ul li a:hover {
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+.hero {
+    background-image: url("../images/yinyang.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 50%;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 35px;
+}
+
+figure img {
+    width: 200px;
+    height: 200px;
+}
+
+
