@@ -14,7 +14,7 @@
 
 body {
     background-color: var(--tertiary-color);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     display: block;
 }
 
@@ -224,7 +224,7 @@ figure img {
 
 #contact-me {
     margin: 0 auto;
-    width: 80%;
+    width: 70%;
     display: flex;
 }
 
@@ -255,9 +255,48 @@ figure img {
     font-weight: bold;
 }
 
+.link1:hover {
+    background-color: grey;
+    opacity: 0.5;
+}
+.link2:hover {
+    background-color: grey;
+    opacity: 0.5;
+}
+.link3:hover {
+    background-color: grey;
+    opacity: 0.5;
+}
+.link4:hover {
+    background-color: grey;
+    opacity: 0.5;
+}
+
+
+/* resume */
+
+.resume-wrap {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.resume a{
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    color: var(--secondary-color);
+}
+
+.resume:hover {
+    background-color: grey;
+    opacity: 0.5;
+}
+
 /* media */
 
-@media only screen and (max-width: 980px){
+@media screen and (max-width: 980px){
     header {
         padding-bottom: 0;
         justify-content: center;
@@ -277,5 +316,19 @@ figure img {
 
     header nav ul li a {
         font-size: 20px;
+    }
+}
+
+/* tablets and smaller */
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    h2 {
+        font-size: 15px;
     }
 }
