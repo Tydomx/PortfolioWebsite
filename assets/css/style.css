@@ -182,7 +182,7 @@ figure img {
 }
 
 .card1 {
-    background: url("../images/run_buddy_screenshot.png");
+    background: url("../images/barkr.png");
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -208,7 +208,7 @@ figure img {
 }
 
 .card5 {
-    background: url("../images/coming_soon.jpeg");
+    background: url("../images/run_buddy_screenshot.png");
     background-size: cover;
     background-position: center;
     
