@@ -182,7 +182,7 @@ figure img {
 }
 
 .card1 {
-    background: url("../images/run_buddy_screenshot.png");
+    background: url("../images/barkr.png");
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -208,7 +208,7 @@ figure img {
 }
 
 .card5 {
-    background: url("../images/coming_soon.jpeg");
+    background: url("../images/run_buddy_screenshot.png");
     background-size: cover;
     background-position: center;
     
@@ -238,6 +238,35 @@ figure img {
     padding: 5px 5px;
     color: var(--quaternary-color);
 }
+
+
+/* skills section */
+#skills {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+}
+
+.wrap-title {
+    width: 30%;
+    text-align: left;
+    padding-right: 20px;
+    font-size: 25px;
+    border-right: 3px solid var(--quinary-color);
+    margin-left: 0;
+    margin-right: 100px;
+}
+
+.list {
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.wrap-title h2 {
+    text-align: right;
+}
+
+/* contact me section */
 
 #contact-me {
     margin: 0 auto;
