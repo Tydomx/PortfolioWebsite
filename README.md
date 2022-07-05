@@ -1,4 +1,7 @@
 # Portfolio Website
+![GitHub issues badge](https://img.shields.io/github/issues/Tydomx/PortfolioWebsite)
+![GitHub forks badge](https://img.shields.io/github/forks/Tydomx/PortfolioWebsite)
+![GitHub stars badge](https://img.shields.io/github/stars/Tydomx/PortfolioWebsite)
 ![GitHub license badge](https://img.shields.io/github/license/Tydomx/PortfolioWebsite)
 
 Portfolio of work to show case web applications via website
