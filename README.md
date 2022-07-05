@@ -1,4 +1,6 @@
 # Portfolio Website
+![GitHub license badge](https://img.shields.io/github/license/Tydomx/PortfolioWebsite)
+
 Portfolio of work to show case web applications via website
 
 
